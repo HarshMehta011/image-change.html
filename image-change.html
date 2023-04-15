@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .x {
+            height: 400px;
+            width: 400px;
+            margin: 100px auto;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="x"><img src= https://m.media-amazon.com/images/G/08/gc/designs/livepreview/a_generic_10_fr_noto_email_v2016_fr-main._CB648676845_.png alt="" id="x1" height="100%" width="100%">
+        <button onclick="image()">Img-Change1</button>
+        <button onclick="imag()">Img-Change2</button>
+        <button onclick="ima()">Img-Change3</button>
+    </div>
+
+    <script>
+        img_tag = document.getElementById('x1');
+
+        function image() {
+            img_tag.src="https://m.media-amazon.com/images/G/08/gc/designs/livepreview/a_generic_10_fr_noto_email_v2016_fr-main._CB648676845_.png"
+        }U
+
+        function imag() {
+            img_tag.src = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSziBY6mAMyQfE-m4scUHz8Ptt6PZgZON0Z0g&usqp=CAU"
+        }
+
+        function ima() {
+            img_tag.src = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ22QfMvyllbhhYBUD9-CoxMAf5jo-4hFZ5lg&usqp=CAU"
+        }
+    </script>
+</body>
+
+</html>
